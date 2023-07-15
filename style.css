@@ -5,13 +5,16 @@ html{
 }
 
 /* Navigation bar */
-.topnav {
-   overflow:hidden;
+
+.topnav ul {
+  margin: 0;
+}
+.topnav li {
+  display: inline-block;
 }
 .topnav a {
-  float: left;
   text-align:center;
-  padding: 14px 16px;
+  padding: 10px 10px;
   text-decoration:none;
   font-size: 1.1rem;
 }
@@ -20,7 +23,7 @@ html{
   color:black;
 }
 
-.topnav a:hover{
+.topnav a:focus, .topnav a:hover{
   background-color:#ddd;
   color:grey;
   text-weight: bold;
@@ -37,9 +40,15 @@ html{
 .topnav .active {
   font-weight: bold;
 }
+
 /* Main body */
 
 p {
   line-height: 1.5rem;
   text-indent: 10px;
+}
+
+.mainpic {
+  float: left;
+  margin-right: 1.5rem;
 }
