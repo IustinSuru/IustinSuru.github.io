@@ -34,6 +34,9 @@ html{
   font-weight: bold;
 }
 
+.topnav .active {
+  font-weight: bold;
+}
 /* Main body */
 
 p {
